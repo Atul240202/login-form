@@ -23,6 +23,16 @@ body{
     outline-color: deepskyblue;
 }
 
+@media screen and (max-width: 500px) {
+    .input {
+      max-width: fit-content;
+    }
+    .btn {
+        display: grid;
+        margin: 10px;
+    }
+}
+
 .custom-field .placeholder{
     position: absolute;
     left: 12px;
@@ -46,6 +56,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
     color: steelblue;
 }
+
+@media screen and (max-width: 500px) {
+    .message {
+      font-size:inherit;
+    }
+
+}
+
 
 .success{
     font-size: 18px;
